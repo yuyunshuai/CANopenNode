@@ -32,6 +32,10 @@ Then clone [CANopenNode](https://github.com/CANopenNode/CANopenNode) from Github
     cd CANopenNode
     make
 
+Install can-utils:
+
+    sudo apt install can-utils
+
 Now prepare CAN virtual device and run _candump_, which will show all CAN traffic. Use a second terminal:
 
     sudo modprobe vcan
